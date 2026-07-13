@@ -10,9 +10,9 @@ import MissedConnectionPredictor from './pages/MissedConnectionPredictor'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/PROJECT">
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/PROJECT" element={<Layout />}>
           <Route index element={<Dashboard />} />
           <Route path="flight-tracker" element={<FlightTracker />} />
           <Route path="airport-intelligence" element={<AirportIntelligence />} />
