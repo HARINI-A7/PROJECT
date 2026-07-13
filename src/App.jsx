@@ -10,7 +10,7 @@ import MissedConnectionPredictor from './pages/MissedConnectionPredictor'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/PROJECT">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Dashboard />} />
