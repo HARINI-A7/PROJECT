@@ -159,5 +159,6 @@ function sarvamProxyPlugin() {
 }
 
 export default defineConfig({
+  base: '/PROJECT/',
   plugins: [react(), tailwindcss(), openSkyProxyPlugin(), sarvamProxyPlugin()],
 })
